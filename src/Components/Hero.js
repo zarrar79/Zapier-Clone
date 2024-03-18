@@ -20,13 +20,8 @@ export const Hero = () => {
         <div className="max-w-[1176px] mx-auto pr-4">
           {/* border */}
           {/* flex */}
-          <div
-            id="scrollableDiv"
-            className="bg-[white] bg_color_js left-0 fixed w-[100%] py-[14px] z-[1] flex items-center justify-between border-b-[1px] border-b-solid border-b-[#e8e8e8ee]"
-          >
-            {/* left */}
+          <div className="bg-[white] bg_color_js left-0 fixed w-[100%] py-[14px] z-[1] flex items-center justify-between border-b-[1px] border-b-solid border-b-[#e8e8e8ee]">
             {/* flex-left */}
-            <div className="flex justify-between max-w-[1176px] mx-auto">
               <div className="left_flx flex items-center">
                 <div>
                   {/* hamburger */}
@@ -237,6 +232,7 @@ export const Hero = () => {
                   </div>
                 </div>
               </div>
+              
               {/* right */}
               <div className="flex justify-between text-[#5e5e60] font-Inter items-center">
                 {/* img */}
@@ -269,8 +265,7 @@ export const Hero = () => {
                   <button>Sign up</button>
                 </div>
               </div>
-            </div>
-          </div>
+              </div>
         </div>
       </div>
       <div className="flex justify-end mt-[72px]">
