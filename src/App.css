@@ -196,6 +196,12 @@
   }
 }
 @media (max-width:811px){
+  .grid_images{
+    margin-right:1.1rem;
+  }
+  .formatter{
+    margin-top:10px;
+  }
   .btn-block{
     align-items:center;
     text-align:center;
