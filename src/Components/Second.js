@@ -402,13 +402,13 @@ export const Second = () => {
       {/* link */}
       <div className="font-Inter underline text-[#3d4592] font-[400] text-[18px] text-center mt-1"><a href="#">What does this mean?</a></div>
       {/* tabs */}
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center mt-5 tabs_flex">
         {/* tab 1 */}
         <div><button className="font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">Triggers</button></div>
         {/* tab 2 */}
-        <div className="ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">Actions</div>
+        <div><button className="marg_top ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">Actions</button></div>
         {/* tab 3 */}
-        <div className="ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid] bg-[#2e2e2e] text-[#ffff]">Triggers & Actions</div>
+        <div><button className="marg_top ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid] bg-[#2e2e2e] text-[#ffff]">Triggers & Actions</button></div>
       </div>
       </div>
       </div>

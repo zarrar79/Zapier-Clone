@@ -289,3 +289,18 @@
     margin:0 12px 0 12px;
   }
 }
+@media (max-width:437px){
+  .tabs_flex{
+    display:block;
+    align-items:center;
+    text-align:center;
+  }
+  .marg_top{
+    margin-top:10px;
+  }
+}
+@media (max-width:419px){
+  .search_media{
+    padding-right:10px;
+  }
+}
