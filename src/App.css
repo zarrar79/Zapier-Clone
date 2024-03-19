@@ -249,3 +249,38 @@
     align-items:center;
    }
 }
+@media (max-width:425px){
+  .sec_search{
+    left:28%;
+  }
+}
+@media (max-width:936px){
+  .contain{
+    margin:0 2rem 0 2rem;
+  }
+}
+@media (max-width:754px){
+  .break_flex{
+    display:block;
+  }
+}
+@media(max-width:618px){
+  .links{
+    margin-top:10px;
+  }
+  .flex_inner{
+    align-items:center;
+    display:block;
+  }
+  .margin_adj{
+    margin-top:0.5rem;
+    margin-left:0px;
+    text-align:center;
+  }
+  .imgsec_flex{
+    justify-content:center;
+  }
+  .flex_idk{
+    justify-content:center;
+  }
+}
