@@ -284,3 +284,8 @@
     justify-content:center;
   }
 }
+@media (max-width:686px){
+  .integration{
+    margin:0 12px 0 12px;
+  }
+}

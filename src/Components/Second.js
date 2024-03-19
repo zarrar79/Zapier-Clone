@@ -377,8 +377,40 @@ export const Second = () => {
         <div className="flex justify-center mt-[35px]">
             <button className="rounded px-[22px] py-2 border-[1px] border-[solid] border-[#3d4592] text-[#3d4592] text-[16px] font-[600] font-Inter">Load more</button>
         </div>
+        {/* parent */}
+        <div className="flex justify-center mt-9">
         {/* bar */}
-        <div className="bg-[#d7d5d2] border-[solid] w-[2px] h-[2px] rounded"></div>
+        <div className="justify-center bg-[#d7d5d2] border-[solid] w-[70px] h-[2.5px] rounded"></div>
+      </div>
+      {/* container */}
+      <div className="integration max-w-[670px] mx-auto mt-[28px]">
+        {/* b-text */}
+        <div className="degular font-[600] text-[42px] text-center">HubSpot integration details</div>
+        {/* s-text */}
+        <div className="mt-3 leading-[27px] degular font-[500] text-[20px] text-[#656463] text-center">Whether you work in marketing, sales, or customer success, you can use Zapier with HubSpot to eliminate the tedious manual work involved in managing your contacts and forms. Focus your time on closing more deals and helping your customers. Use Zapier to automatically move info in and out of HubSpot and trigger tasks like sending emails, creating online spreadsheets, and registering clients for events.</div>
+       {/* button */}
+       <div className="flex justify-center mt-8">
+        <button className="font-Inter font-[600] text-[16px] text-[#fffdf9] px-6 py-[13px] rounded-[3px] bg-[#3d4592]">Connect HubSpot to 6,000+ apps</button>
+       </div>
+       {/* parent */}
+       <div className="flex justify-center mt-9">
+        {/* bar */}
+        <div className="justify-center bg-[#d7d5d2] border-[solid] w-[70px] h-[2.5px] rounded"></div>
+      </div>
+      {/* b-text */}
+      <div className="text-[#2d2e2e] degular font-[600] text-[42px] text-center mt-8">Supported triggers and actions</div>
+      {/* link */}
+      <div className="font-Inter underline text-[#3d4592] font-[400] text-[18px] text-center mt-1"><a href="#">What does this mean?</a></div>
+      {/* tabs */}
+      <div className="flex justify-center mt-5">
+        {/* tab 1 */}
+        <div><button className="font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">Triggers</button></div>
+        {/* tab 2 */}
+        <div className="ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">Actions</div>
+        {/* tab 3 */}
+        <div className="ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid] bg-[#2e2e2e] text-[#ffff]">Triggers & Actions</div>
+      </div>
+      </div>
       </div>
     </>
   );
