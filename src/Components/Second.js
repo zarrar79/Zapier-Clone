@@ -220,7 +220,7 @@ export const Second = () => {
                         {/* img 1 */}
                         <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
                           <img
-                            className="w-[30px] h-[30px]"
+                            className="w-[24px] h-[24px]"
                             src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
                           ></img>
                         </div>
@@ -375,42 +375,972 @@ export const Second = () => {
         </div>
         {/* load more */}
         <div className="flex justify-center mt-[35px]">
-            <button className="rounded px-[22px] py-2 border-[1px] border-[solid] border-[#3d4592] text-[#3d4592] text-[16px] font-[600] font-Inter">Load more</button>
+          <button className="rounded px-[22px] py-2 border-[1px] border-[solid] border-[#3d4592] text-[#3d4592] text-[16px] font-[600] font-Inter">
+            Load more
+          </button>
         </div>
         {/* parent */}
         <div className="flex justify-center mt-9">
-        {/* bar */}
-        <div className="justify-center bg-[#d7d5d2] border-[solid] w-[70px] h-[2.5px] rounded"></div>
-      </div>
-      {/* container */}
-      <div className="integration max-w-[670px] mx-auto mt-[28px]">
-        {/* b-text */}
-        <div className="degular font-[600] text-[42px] text-center">HubSpot integration details</div>
-        {/* s-text */}
-        <div className="mt-3 leading-[27px] degular font-[500] text-[20px] text-[#656463] text-center">Whether you work in marketing, sales, or customer success, you can use Zapier with HubSpot to eliminate the tedious manual work involved in managing your contacts and forms. Focus your time on closing more deals and helping your customers. Use Zapier to automatically move info in and out of HubSpot and trigger tasks like sending emails, creating online spreadsheets, and registering clients for events.</div>
-       {/* button */}
-       <div className="flex justify-center mt-8">
-        <button className="font-Inter font-[600] text-[16px] text-[#fffdf9] px-6 py-[13px] rounded-[3px] bg-[#3d4592]">Connect HubSpot to 6,000+ apps</button>
-       </div>
-       {/* parent */}
-       <div className="flex justify-center mt-9">
-        {/* bar */}
-        <div className="justify-center bg-[#d7d5d2] border-[solid] w-[70px] h-[2.5px] rounded"></div>
-      </div>
-      {/* b-text */}
-      <div className="text-[#2d2e2e] degular font-[600] text-[42px] text-center mt-8">Supported triggers and actions</div>
-      {/* link */}
-      <div className="font-Inter underline text-[#3d4592] font-[400] text-[18px] text-center mt-1"><a href="#">What does this mean?</a></div>
-      {/* tabs */}
-      <div className="flex justify-center mt-5 tabs_flex">
-        {/* tab 1 */}
-        <div><button className="font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">Triggers</button></div>
-        {/* tab 2 */}
-        <div><button className="marg_top ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">Actions</button></div>
-        {/* tab 3 */}
-        <div><button className="marg_top ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid] bg-[#2e2e2e] text-[#ffff]">Triggers & Actions</button></div>
-      </div>
-      </div>
+          {/* bar */}
+          <div className="justify-center bg-[#d7d5d2] border-[solid] w-[70px] h-[2.5px] rounded"></div>
+        </div>
+        {/* container */}
+        <div className="integration max-w-[670px] mx-auto mt-[28px]">
+          {/* b-text */}
+          <div className="degular font-[600] text-[42px] text-center">
+            HubSpot integration details
+          </div>
+          {/* s-text */}
+          <div className="mt-3 leading-[27px] degular font-[500] text-[20px] text-[#656463] text-center">
+            Whether you work in marketing, sales, or customer success, you can
+            use Zapier with HubSpot to eliminate the tedious manual work
+            involved in managing your contacts and forms. Focus your time on
+            closing more deals and helping your customers. Use Zapier to
+            automatically move info in and out of HubSpot and trigger tasks like
+            sending emails, creating online spreadsheets, and registering
+            clients for events.
+          </div>
+          {/* button */}
+          <div className="flex justify-center mt-8">
+            <button className="font-Inter font-[600] text-[16px] text-[#fffdf9] px-6 py-[13px] rounded-[3px] bg-[#3d4592]">
+              Connect HubSpot to 6,000+ apps
+            </button>
+          </div>
+          {/* parent */}
+          <div className="flex justify-center mt-9">
+            {/* bar */}
+            <div className="justify-center bg-[#d7d5d2] border-[solid] w-[70px] h-[2.5px] rounded"></div>
+          </div>
+          {/* b-text */}
+          <div className="text-[#2d2e2e] degular font-[600] text-[42px] text-center mt-8">
+            Supported triggers and actions
+          </div>
+          {/* link */}
+          <div className="font-Inter underline text-[#3d4592] font-[400] text-[18px] text-center mt-1">
+            <a href="#">What does this mean?</a>
+          </div>
+          {/* tabs */}
+          <div className="flex justify-center mt-5 tabs_flex">
+            {/* tab 1 */}
+            <div>
+              <button className="font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">
+                Triggers
+              </button>
+            </div>
+            {/* tab 2 */}
+            <div>
+              <button className="marg_top ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid]">
+                Actions
+              </button>
+            </div>
+            {/* tab 3 */}
+            <div>
+              <button className="marg_top ml-[10px] font-Inter font-[600] text-[16px] rounded-3xl px-[20px] py-[9px] border-[1px] border-[#9e9d9d] border-[solid] bg-[#2e2e2e] text-[#ffff]">
+                Triggers & Actions
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        {/* grid */}
+        <div className="grid grid-cols-2 gap-[33px] mt-5 grid_many mr-1">
+          {/* left */}
+          <div className="space-y-[9px]">
+            {/* box 1 */}
+            <div className="border-[1px] border-[#e1e1e1] border-[solid] rounded-[5px]">
+              {/* Inner flex 1 */}
+              <div className="flex items-center justify-between px-[14px] pt-[11px]">
+                {/* left */}
+                <div>
+                  {/* inner inner flex */}
+                  <div className="flex items-center">
+                    {/* img */}
+                    <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
+                      <img
+                        className="w-[30px] h-[30px]"
+                        src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
+                      ></img>
+                    </div>
+                    {/* text */}
+                    <div className="ml-[14px] mt-1">
+                      {/* lg-text */}
+                      <div className="font-Inter font-[700] text-[16px]">
+                        New Company
+                      </div>
+                      {/* s-text */}
+                      <div className="font-Inter font-[400] text-[14px] text-[#403f3e]">
+                        Triggers when new company is available.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* right */}
+                <div className="cursor-pointer">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    size="24"
+                    color="currentColor"
+                    name="arrowSmallDown"
+                  >
+                    <path
+                      fill="gray"
+                      d="m12 17.3 7-5.86V8.82l-7 5.88-7-5.88v2.62l7 5.86Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              {/* border */}
+              <div className="mt-[15px] items-center py-[6px] border-t-[1px] border-t-[solid] border-t-[#e1e1e1]">
+                {/* sep div flex */}
+                <div className="flex justify-between ml-[12px] mr-[14px]">
+                  {/* left */}
+                  <div className="flex items-center">
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[black]">
+                      Trigger
+                    </div>
+                    {/* button */}
+                    <button className="ml-[14px] flex items-center space-x-1 rounded-[30px] bg-[#E9E8E5] px-[8px] py-[2px]">
+                      {/* img */}
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          height="15.83"
+                          width="15.83"
+                          size="15.83"
+                          name="miscClock"
+                        >
+                          <path
+                            fill="black"
+                            d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm-1-8.47-3.22 2.7 1.29 1.54 3.93-3.3V7h-2v4.53Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      {/* text */}
+                      <div className="font-Inter font-[700] text-[14px] text-[black]">
+                        Scheduled
+                      </div>
+                    </button>
+                  </div>
+                  {/* right */}
+                  <div className="flex items-center">
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[#95928e]">
+                      Try It
+                    </div>
+                    {/* img */}
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="24"
+                        width="24"
+                        size="24"
+                        color="currentColor"
+                        name="arrowBigRight"
+                      >
+                        <path
+                          fill="#95928e"
+                          d="M16.86 11H4v2h12.86l-5.04 6h2.62l5.86-7-5.86-7h-2.62l5.04 6Z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* box 2 */}
+            <div className="border-[1px] border-[#e1e1e1] border-[solid] rounded-[5px]">
+              {/* Inner flex 1 */}
+              <div className="flex items-center justify-between px-[14px] pt-[11px]">
+                {/* left */}
+                <div>
+                  {/* inner inner flex */}
+                  <div className="flex items-center">
+                    {/* img */}
+                    <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
+                      <img
+                        className="w-[30px] h-[30px]"
+                        src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
+                      ></img>
+                    </div>
+                    {/* text */}
+                    <div className="ml-[14px] mt-1">
+                      {/* lg-text */}
+                      <div className="font-Inter font-[700] text-[16px]">
+                      Company Recently Created or Updated
+                      </div>
+                      {/* s-text */}
+                      <div className="font-Inter font-[400] text-[14px] text-[#403f3e]">
+                      Triggers when a company recently created or updated.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* right */}
+                <div className="cursor-pointer">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    size="24"
+                    color="currentColor"
+                    name="arrowSmallDown"
+                  >
+                    <path
+                      fill="gray"
+                      d="m12 17.3 7-5.86V8.82l-7 5.88-7-5.88v2.62l7 5.86Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              {/* border */}
+              <div className="mt-[15px] items-center py-[6px] border-t-[1px] border-t-[solid] border-t-[#e1e1e1]">
+                {/* sep div flex */}
+                <div className="flex justify-between ml-[12px] mr-[14px]">
+                  {/* left */}
+                  <div className="flex items-center">
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[black]">
+                      Trigger
+                    </div>
+                    {/* button */}
+                    <button className="ml-[14px] flex items-center space-x-1 rounded-[30px] bg-[#E9E8E5] px-[8px] py-[2px]">
+                      {/* img */}
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          height="15.83"
+                          width="15.83"
+                          size="15.83"
+                          name="miscClock"
+                        >
+                          <path
+                            fill="black"
+                            d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm-1-8.47-3.22 2.7 1.29 1.54 3.93-3.3V7h-2v4.53Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      {/* text */}
+                      <div className="font-Inter font-[700] text-[14px] text-[black]">
+                        Scheduled
+                      </div>
+                    </button>
+                  </div>
+                  {/* right */}
+                  <div className="flex items-center">
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[#95928e]">
+                      Try It
+                    </div>
+                    {/* img */}
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="24"
+                        width="24"
+                        size="24"
+                        color="currentColor"
+                        name="arrowBigRight"
+                      >
+                        <path
+                          fill="#95928e"
+                          d="M16.86 11H4v2h12.86l-5.04 6h2.62l5.86-7-5.86-7h-2.62l5.04 6Z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* box 3 */}
+            <div className="border-[1px] border-[#e1e1e1] border-[solid] rounded-[5px]">
+              {/* Inner flex 1 */}
+              <div className="flex items-center justify-between px-[14px] pt-[11px]">
+                {/* left */}
+                <div>
+                  {/* inner inner flex */}
+                  <div className="flex items-center">
+                    {/* img */}
+                    <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
+                      <img
+                        className="w-[30px] h-[30px]"
+                        src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
+                      ></img>
+                    </div>
+                    {/* text */}
+                    <div className="ml-[14px] mt-1">
+                      {/* lg-text */}
+                      <div className="font-Inter font-[700] text-[16px]">
+                      Line_item Recently Created or Updated
+                      </div>
+                      {/* s-text */}
+                      <div className="font-Inter font-[400] text-[14px] text-[#403f3e]">
+                      Triggers when a line_item recently created or updated.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* right */}
+                <div className="cursor-pointer">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    size="24"
+                    color="currentColor"
+                    name="arrowSmallDown"
+                  >
+                    <path
+                      fill="gray"
+                      d="m12 17.3 7-5.86V8.82l-7 5.88-7-5.88v2.62l7 5.86Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              {/* border */}
+              <div className="mt-[15px] items-center py-[6px] border-t-[1px] border-t-[solid] border-t-[#e1e1e1]">
+                {/* sep div flex */}
+                <div className="flex justify-between ml-[12px] mr-[14px]">
+                  {/* left */}
+                  <div className="flex items-center">
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[black]">
+                      Trigger
+                    </div>
+                    {/* button */}
+                    <button className="ml-[14px] flex items-center space-x-1 rounded-[30px] bg-[#E9E8E5] px-[8px] py-[2px]">
+                      {/* img */}
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          height="15.83"
+                          width="15.83"
+                          size="15.83"
+                          name="miscClock"
+                        >
+                          <path
+                            fill="black"
+                            d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm-1-8.47-3.22 2.7 1.29 1.54 3.93-3.3V7h-2v4.53Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      {/* text */}
+                      <div className="font-Inter font-[700] text-[14px] text-[black]">
+                        Scheduled
+                      </div>
+                    </button>
+                  </div>
+                  {/* right */}
+                  <div className="flex items-center">
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[#95928e]">
+                      Try It
+                    </div>
+                    {/* img */}
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="24"
+                        width="24"
+                        size="24"
+                        color="currentColor"
+                        name="arrowBigRight"
+                      >
+                        <path
+                          fill="#95928e"
+                          d="M16.86 11H4v2h12.86l-5.04 6h2.62l5.86-7-5.86-7h-2.62l5.04 6Z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* box 4 */}
+            <div className="border-[1px] border-[#e1e1e1] border-[solid] rounded-[5px]">
+              {/* Inner flex 1 */}
+              <div className="flex items-center justify-between px-[14px] pt-[11px]">
+                {/* left */}
+                <div>
+                  {/* inner inner flex */}
+                  <div className="flex items-center">
+                    {/* img */}
+                    <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
+                      <img
+                        className="w-[30px] h-[30px]"
+                        src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
+                      ></img>
+                    </div>
+                    {/* text */}
+                    <div className="ml-[14px] mt-1">
+                      {/* lg-text */}
+                      <div className="font-Inter font-[700] text-[16px]">
+                      New Deal
+                      </div>
+                      {/* s-text */}
+                      <div className="font-Inter font-[400] text-[14px] text-[#403f3e]">
+                      Triggers when new deal is available.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* right */}
+                <div className="cursor-pointer">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    size="24"
+                    color="currentColor"
+                    name="arrowSmallDown"
+                  >
+                    <path
+                      fill="gray"
+                      d="m12 17.3 7-5.86V8.82l-7 5.88-7-5.88v2.62l7 5.86Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              {/* border */}
+              <div className="mt-[15px] items-center py-[6px] border-t-[1px] border-t-[solid] border-t-[#e1e1e1]">
+                {/* sep div flex */}
+                <div className="flex justify-between ml-[12px] mr-[14px]">
+                  {/* left */}
+                  <div className="flex items-center">
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[black]">
+                      Trigger
+                    </div>
+                    {/* button */}
+                    <button className="ml-[14px] flex items-center space-x-1 rounded-[30px] bg-[#E9E8E5] px-[8px] py-[2px]">
+                      {/* img */}
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          height="15.83"
+                          width="15.83"
+                          size="15.83"
+                          name="miscClock"
+                        >
+                          <path
+                            fill="black"
+                            d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm-1-8.47-3.22 2.7 1.29 1.54 3.93-3.3V7h-2v4.53Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      {/* text */}
+                      <div className="font-Inter font-[700] text-[14px] text-[black]">
+                        Scheduled
+                      </div>
+                    </button>
+                  </div>
+                  {/* right */}
+                  <div className="flex items-center">
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[#95928e]">
+                      Try It
+                    </div>
+                    {/* img */}
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="24"
+                        width="24"
+                        size="24"
+                        color="currentColor"
+                        name="arrowBigRight"
+                      >
+                        <path
+                          fill="#95928e"
+                          d="M16.86 11H4v2h12.86l-5.04 6h2.62l5.86-7-5.86-7h-2.62l5.04 6Z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* right */}
+          <div className="space-y-[9px]">
+          {/* box 5 */}
+          <div className="border-[1px] border-[#e1e1e1] border-[solid] rounded-[5px]">
+            {/* Inner flex 1 */}
+            <div className="flex items-center justify-between px-[14px] pt-[11px]">
+              {/* left */}
+              <div>
+                {/* inner inner flex */}
+                <div className="flex items-center">
+                  {/* img */}
+                  <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
+                    <img
+                      className="w-[30px] h-[30px]"
+                      src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
+                    ></img>
+                  </div>
+                  {/* text */}
+                  <div className="ml-[14px] mt-1">
+                    {/* lg-text */}
+                    <div className="font-Inter font-[700] text-[16px]">
+                    Product Recently Created or Updated
+                    </div>
+                    {/* s-text */}
+                    <div className="font-Inter font-[400] text-[14px] text-[#403f3e]">
+                    Triggers when a product recently created or updated.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* right */}
+              <div className="cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  size="24"
+                  color="currentColor"
+                  name="arrowSmallDown"
+                >
+                  <path
+                    fill="gray"
+                    d="m12 17.3 7-5.86V8.82l-7 5.88-7-5.88v2.62l7 5.86Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            {/* border */}
+            <div className="mt-[15px] items-center py-[6px] border-t-[1px] border-t-[solid] border-t-[#e1e1e1]">
+              {/* sep div flex */}
+              <div className="flex justify-between ml-[12px] mr-[14px]">
+                {/* left */}
+                <div className="flex items-center">
+                  {/* text */}
+                  <div className="font-Inter font-[700] text-[14px] text-[black]">
+                    Trigger
+                  </div>
+                  {/* button */}
+                  <button className="ml-[14px] flex items-center space-x-1 rounded-[30px] bg-[#E9E8E5] px-[8px] py-[2px]">
+                    {/* img */}
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="15.83"
+                        width="15.83"
+                        size="15.83"
+                        name="miscClock"
+                      >
+                        <path
+                          fill="black"
+                          d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm-1-8.47-3.22 2.7 1.29 1.54 3.93-3.3V7h-2v4.53Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[black]">
+                      Scheduled
+                    </div>
+                  </button>
+                </div>
+                {/* right */}
+                <div className="flex items-center">
+                  {/* text */}
+                  <div className="font-Inter font-[700] text-[14px] text-[#95928e]">
+                    Try It
+                  </div>
+                  {/* img */}
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      height="24"
+                      width="24"
+                      size="24"
+                      color="currentColor"
+                      name="arrowBigRight"
+                    >
+                      <path
+                        fill="#95928e"
+                        d="M16.86 11H4v2h12.86l-5.04 6h2.62l5.86-7-5.86-7h-2.62l5.04 6Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* box 6 */}
+          <div className="border-[1px] border-[#e1e1e1] border-[solid] rounded-[5px]">
+            {/* Inner flex 1 */}
+            <div className="flex items-center justify-between px-[14px] pt-[11px]">
+              {/* left */}
+              <div>
+                {/* inner inner flex */}
+                <div className="flex items-center">
+                  {/* img */}
+                  <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
+                    <img
+                      className="w-[30px] h-[30px]"
+                      src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
+                    ></img>
+                  </div>
+                  {/* text */}
+                  <div className="ml-[14px] mt-1">
+                    {/* lg-text */}
+                    <div className="font-Inter font-[700] text-[16px]">
+                    Contact Recently Created or Updated
+                    </div>
+                    {/* s-text */}
+                    <div className="font-Inter font-[400] text-[14px] text-[#403f3e]">
+                    Triggers when a contact recently created or updated.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* right */}
+              <div className="cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  size="24"
+                  color="currentColor"
+                  name="arrowSmallDown"
+                >
+                  <path
+                    fill="gray"
+                    d="m12 17.3 7-5.86V8.82l-7 5.88-7-5.88v2.62l7 5.86Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            {/* border */}
+            <div className="mt-[15px] items-center py-[6px] border-t-[1px] border-t-[solid] border-t-[#e1e1e1]">
+              {/* sep div flex */}
+              <div className="flex justify-between ml-[12px] mr-[14px]">
+                {/* left */}
+                <div className="flex items-center">
+                  {/* text */}
+                  <div className="font-Inter font-[700] text-[14px] text-[black]">
+                    Trigger
+                  </div>
+                  {/* button */}
+                  <button className="ml-[14px] flex items-center space-x-1 rounded-[30px] bg-[#E9E8E5] px-[8px] py-[2px]">
+                    {/* img */}
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="15.83"
+                        width="15.83"
+                        size="15.83"
+                        name="miscClock"
+                      >
+                        <path
+                          fill="black"
+                          d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm-1-8.47-3.22 2.7 1.29 1.54 3.93-3.3V7h-2v4.53Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[black]">
+                      Scheduled
+                    </div>
+                  </button>
+                </div>
+                {/* right */}
+                <div className="flex items-center">
+                  {/* text */}
+                  <div className="font-Inter font-[700] text-[14px] text-[#95928e]">
+                    Try It
+                  </div>
+                  {/* img */}
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      height="24"
+                      width="24"
+                      size="24"
+                      color="currentColor"
+                      name="arrowBigRight"
+                    >
+                      <path
+                        fill="#95928e"
+                        d="M16.86 11H4v2h12.86l-5.04 6h2.62l5.86-7-5.86-7h-2.62l5.04 6Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* box 7 */}
+          <div className="border-[1px] border-[#e1e1e1] border-[solid] rounded-[5px]">
+            {/* Inner flex 1 */}
+            <div className="flex items-center justify-between px-[14px] pt-[11px]">
+              {/* left */}
+              <div>
+                {/* inner inner flex */}
+                <div className="flex items-center">
+                  {/* img */}
+                  <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
+                    <img
+                      className="w-[30px] h-[30px]"
+                      src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
+                    ></img>
+                  </div>
+                  {/* text */}
+                  <div className="ml-[14px] mt-1">
+                    {/* lg-text */}
+                    <div className="font-Inter font-[700] text-[16px]">
+                    Product Recently Created or Updated
+                    </div>
+                    {/* s-text */}
+                    <div className="font-Inter font-[400] text-[14px] text-[#403f3e]">
+                    Triggers when a product recently created or updated.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* right */}
+              <div className="cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  size="24"
+                  color="currentColor"
+                  name="arrowSmallDown"
+                >
+                  <path
+                    fill="gray"
+                    d="m12 17.3 7-5.86V8.82l-7 5.88-7-5.88v2.62l7 5.86Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            {/* border */}
+            <div className="mt-[15px] items-center py-[6px] border-t-[1px] border-t-[solid] border-t-[#e1e1e1]">
+              {/* sep div flex */}
+              <div className="flex justify-between ml-[12px] mr-[14px]">
+                {/* left */}
+                <div className="flex items-center">
+                  {/* text */}
+                  <div className="font-Inter font-[700] text-[14px] text-[black]">
+                    Trigger
+                  </div>
+                  {/* button */}
+                  <button className="ml-[14px] flex items-center space-x-1 rounded-[30px] bg-[#E9E8E5] px-[8px] py-[2px]">
+                    {/* img */}
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="15.83"
+                        width="15.83"
+                        size="15.83"
+                        name="miscClock"
+                      >
+                        <path
+                          fill="black"
+                          d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm-1-8.47-3.22 2.7 1.29 1.54 3.93-3.3V7h-2v4.53Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[black]">
+                      Scheduled
+                    </div>
+                  </button>
+                </div>
+                {/* right */}
+                <div className="flex items-center">
+                  {/* text */}
+                  <div className="font-Inter font-[700] text-[14px] text-[#95928e]">
+                    Try It
+                  </div>
+                  {/* img */}
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      height="24"
+                      width="24"
+                      size="24"
+                      color="currentColor"
+                      name="arrowBigRight"
+                    >
+                      <path
+                        fill="#95928e"
+                        d="M16.86 11H4v2h12.86l-5.04 6h2.62l5.86-7-5.86-7h-2.62l5.04 6Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* box 8 */}
+          <div className="border-[1px] border-[#e1e1e1] border-[solid] rounded-[5px]">
+            {/* Inner flex 1 */}
+            <div className="flex items-center justify-between px-[14px] pt-[11px]">
+              {/* left */}
+              <div>
+                {/* inner inner flex */}
+                <div className="flex items-center">
+                  {/* img */}
+                  <div className="p-[5px] border-[1px] rounded-md border-[#d9d9d9] border-solid">
+                    <img
+                      className="w-[30px] h-[30px]"
+                      src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&fit=crop&ixlib=react-9.8.1&q=50&w=30&h=30&dpr=2"
+                    ></img>
+                  </div>
+                  {/* text */}
+                  <div className="ml-[14px] mt-1">
+                    {/* lg-text */}
+                    <div className="font-Inter font-[700] text-[16px]">
+                    New Email Event
+                    </div>
+                    {/* s-text */}
+                    <div className="font-Inter font-[400] text-[14px] text-[#403f3e]">
+                    Triggers when all, or some specific new email event is available.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* right */}
+              <div className="cursor-pointer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  size="24"
+                  color="currentColor"
+                  name="arrowSmallDown"
+                >
+                  <path
+                    fill="gray"
+                    d="m12 17.3 7-5.86V8.82l-7 5.88-7-5.88v2.62l7 5.86Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            {/* border */}
+            <div className="mt-[15px] items-center py-[6px] border-t-[1px] border-t-[solid] border-t-[#e1e1e1]">
+              {/* sep div flex */}
+              <div className="flex justify-between ml-[12px] mr-[14px]">
+                {/* left */}
+                <div className="flex items-center">
+                  {/* text */}
+                  <div className="font-Inter font-[700] text-[14px] text-[black]">
+                    Trigger
+                  </div>
+                  {/* button */}
+                  <button className="ml-[14px] flex items-center space-x-1 rounded-[30px] bg-[#E9E8E5] px-[8px] py-[2px]">
+                    {/* img */}
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        height="15.83"
+                        width="15.83"
+                        size="15.83"
+                        name="miscClock"
+                      >
+                        <path
+                          fill="black"
+                          d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm-1-8.47-3.22 2.7 1.29 1.54 3.93-3.3V7h-2v4.53Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    {/* text */}
+                    <div className="font-Inter font-[700] text-[14px] text-[black]">
+                      Scheduled
+                    </div>
+                  </button>
+                </div>
+                {/* right */}
+                <div className="flex items-center">
+                  {/* text */}
+                  <div className="font-Inter font-[700] text-[14px] text-[#95928e]">
+                    Try It
+                  </div>
+                  {/* img */}
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      height="24"
+                      width="24"
+                      size="24"
+                      color="currentColor"
+                      name="arrowBigRight"
+                    >
+                      <path
+                        fill="#95928e"
+                        d="M16.86 11H4v2h12.86l-5.04 6h2.62l5.86-7-5.86-7h-2.62l5.04 6Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </>
   );

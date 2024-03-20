@@ -304,3 +304,25 @@
     padding-right:10px;
   }
 }
+@media (max-width:1180px){
+  .grid_many{
+    margin-left:1rem;
+    margin-right:1rem;
+  }
+}
+@media (max-width:804px){
+  .grid_many{
+    padding-left:1rem;
+    padding-right:1rem;
+    display: block;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width:377px){
+  .grid_many img{
+    width: 31px;
+    height: 25px;
+  }
+}
