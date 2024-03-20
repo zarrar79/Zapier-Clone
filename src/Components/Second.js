@@ -1341,6 +1341,9 @@ export const Second = () => {
           </div>
           </div>
         </div>
+        {/* button */}
+        <div className="mt-7 flex justify-center"><button className="border-[1px] px-[21.5px] py-[9.5px] border-[solid] border-[#3d4592] rounded-[3px] font-Inter text-[16px] font-[600] text-[#3d4592]">Load more</button></div>
+      <div className="mt-10 w-[100%] border-[solid] border-[1.9px] border-[#cbc9c5] rounded"></div>
       </div>
     </>
   );
