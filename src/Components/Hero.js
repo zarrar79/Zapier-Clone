@@ -15,7 +15,7 @@ export const Hero = () => {
   };
   return (
     <>
-      <div className="fixed top-0 w-[100%] border-b-[1px] border-b-solid z-10 border-b-[#e8e8e8ee]">
+      <div className="fixed top-0 w-[100%] border-b-[1px] border-b-solid z-10 bg-[#ffff]  border-b-[#e8e8e8ee]">
         {/* fluid container */}
         <div className="max-w-[1260px] mx-auto">
           {/* border */}
