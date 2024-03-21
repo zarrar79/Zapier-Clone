@@ -15,12 +15,12 @@ export const Hero = () => {
   };
   return (
     <>
-      <div className="border-b-[1px] border-b-solid border-b-[#e8e8e8ee]">
+      <div className="fixed top-0 w-[100%] border-b-[1px] border-b-solid z-10 border-b-[#e8e8e8ee]">
         {/* fluid container */}
-        <div className="max-w-[1176px] mx-auto pr-4">
+        <div className="max-w-[1260px] mx-auto">
           {/* border */}
           {/* flex */}
-          <div className="bg-[white] bg_color_js left-0 fixed w-[100%] py-[14px] z-[1] flex items-center justify-between border-b-[1px] border-b-solid border-b-[#e8e8e8ee]">
+          <div className="bg-[white] bg_color_js left-0 py-[14px] z-[1] flex items-center justify-between border-b-[1px] border-b-solid border-b-[#e8e8e8ee]">
             {/* flex-left */}
             <div className="left_flx flex items-center">
               <div>
