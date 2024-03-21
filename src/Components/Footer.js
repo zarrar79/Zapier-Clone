@@ -5,13 +5,13 @@ export const Footer = () => {
     <>
       <div className="max-w-[1176px] mx-auto">
         {/* parent flex */}
-        <div className="mt-10 flex">
+        <div className="mt-10 flex flex_break_grid">
           {/* left flex */}
-          <div className="flex w-[65.5%] ml-4">
+          <div className="flex w-[65.5%] ml-4 l_flex">
             {/* left */}
             <div>
               {/* img */}
-              <div className="rounded-[9px] shadow_box p-2 border-[0.8px] border-[solid] border-[#e2e1e1]">
+              <div className="f_img rounded-[9px] shadow_box p-2 border-[0.8px] border-[solid] border-[#e2e1e1]">
                 <img
                   className="w-[60px] h-[60px]"
                   src="https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format&ixlib=react-9.8.1&fit=crop&q=50&w=60&h=60&dpr=2"
@@ -19,9 +19,9 @@ export const Footer = () => {
               </div>
             </div>
             {/* right */}
-            <div className="ml-[40px]">
+            <div className="margin_adj ml-[40px]">
               {/* links */}
-              <div className="flex items-center">
+              <div className="flex items-center flx_btn">
                 {/* link 1 */}
                 <div className="underline font-Inter text-[#3d4592] text-[14px] font-[700]">
                   <a href="#">Apps</a>
@@ -78,7 +78,7 @@ export const Footer = () => {
                 software needs.
               </div>
               {/* buttons */}
-              <div className="flex mt-[18px]">
+              <div className="flex mt-[18px] flx_btn">
                 <div>
                   <button className="border-[#3d4592] border-[1px] border-[solid] rounded px-[11px] py-[9px]">
                     {/* img + text */}
@@ -151,13 +151,13 @@ export const Footer = () => {
                 </div>
                 </div>
               {/* right */}
-              <div className="w-[31%] ml-[10px]">
+              <div className="w-[31%] ml-[10px] r_flex">
                 {/* text */}
-                <div className="font-Inter font-[700] text-[18px]">Similar Apps</div>
+                <div className="text_al font-Inter font-[700] text-[18px]">Similar Apps</div>
                 {/* boxes */}
                 <div className="space-y-[10px]">
                 {/* box 1 */}
-            <div className="mt-[7px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="flex_row mt-[7px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#6bb327] p-[18px] custom-border_one">
                 {/* img */}
@@ -169,7 +169,7 @@ export const Footer = () => {
                 </div>
               </div>
               {/* right */}
-              <div className="font-Inter ml-[20px]">
+              <div className="font-Inter ml-[20px] txt">
                 {/* big-text */}
                 <div className="font-[700] text-[18px]">Keap Max Classic</div>
                 {/* small-text */}
@@ -179,7 +179,7 @@ export const Footer = () => {
               </div>
             </div>
             {/* box 2 */}
-            <div className="leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="flex_row leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#0788c3] p-[18px] custom-border_one">
                 {/* img */}
@@ -191,7 +191,7 @@ export const Footer = () => {
                 </div>
               </div>
               {/* right */}
-              <div className="font-Inter ml-[20px]">
+              <div className="font-Inter ml-[20px] txt">
                 {/* big-text */}
                 <div className="font-[700] text-[18px]">Inbound Now</div>
                 {/* small-text */}
@@ -201,7 +201,7 @@ export const Footer = () => {
               </div>
             </div>
             {/* box 3 */}
-            <div className="leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="flex_row leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#0788c3] p-[18px] custom-border_one">
                 {/* img */}
@@ -213,7 +213,7 @@ export const Footer = () => {
                 </div>
               </div>
               {/* right */}
-              <div className="font-Inter ml-[20px]">
+              <div className="font-Inter ml-[20px] txt">
                 {/* big-text */}
                 <div className="font-[700] text-[18px]">Intercom</div>
                 {/* small-text */}
