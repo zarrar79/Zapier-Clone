@@ -367,14 +367,14 @@ export const Footer = () => {
             </div>
           </div>
           {/* right */}
-          <div className="remove_ms_ps_1 foot_top flex font-[600] text-[16px] font-Inter text-[#414040] space-x-[20px]">
-            <div className="remove_ms_ps_1">Pricing</div>
-            <div className="remove_ms_ps_1">Help</div>
-            <div className="remove_ms_ps_1">Developer Platform</div>
-            <div className="remove_ms_ps_1">Press</div>
-            <div className="remove_ms_ps_1">Jobs</div>
-            <div className="remove_ms_ps_1">Zapier for Companies</div>
-            <div className="remove_ms_ps_1">Templates</div>
+          <div className="foot_top flex font-[600] text-[16px] font-Inter text-[#414040]">
+            <div className="remove_ms_ps_1 ml-[20px]">Pricing</div>
+            <div className="remove_ms_ps_1 ml-[20px]">Help</div>
+            <div className="remove_ms_ps_1 ml-[20px]">Developer Platform</div>
+            <div className="remove_ms_ps_1 ml-[20px]">Press</div>
+            <div className="remove_ms_ps_1 ml-[20px]">Jobs</div>
+            <div className="remove_ms_ps_1 ml-[20px]">Zapier for Companies</div>
+            <div className="remove_ms_ps_1 ml-[20px]">Templates</div>
           </div>
         </div>
         {/* lastest */}

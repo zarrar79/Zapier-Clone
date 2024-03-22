@@ -336,7 +336,7 @@
     display:block;
   }
   .r_flex,.l_flex{
-    width:98%;
+    width:auto;
   }
   .r_flex{
     margin-right:1rem;
@@ -349,6 +349,7 @@
   .l_flex{
     display:block;
     text-align:center;
+    margin-left:0rem;
   }
   .flx_btn{
     justify-content:center;
@@ -419,7 +420,7 @@
     margin:14px 1rem 0 1rem;
   }
 }
-@media (max-width:375px){
+@media (max-width:376px){
    .laaast{
     display:block;
    }
@@ -428,5 +429,14 @@
    }
    .fotr_img{
     display:none
+   }
+   .txt{
+    margin-left:0rem;
+   }
+   .margins{
+    margin-top:2rem;
+   }
+   .remove_ms_ps_1{
+    margin-left: 0rem;
    }
 }
