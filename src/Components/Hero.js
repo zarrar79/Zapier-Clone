@@ -481,7 +481,7 @@ export const Hero = () => {
           {/* left */}
           <div>
             {/* box 1 */}
-            <div className="leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#00a256] p-[18px] custom-border_one">
                 {/* img */}
@@ -503,7 +503,7 @@ export const Hero = () => {
               </div>
             </div>
             {/* box 2 */}
-            <div className="mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#ffc43e] p-[18px] custom-border_one">
                 {/* img */}
@@ -527,7 +527,7 @@ export const Hero = () => {
               </div>
             </div>
             {/* box 3 */}
-            <div className="mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#ffff] p-[18px] custom-border_one">
                 {/* img */}
@@ -552,7 +552,7 @@ export const Hero = () => {
           {/* mid */}
           <div>
             {/* box 1 */}
-            <div className="formatter leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer formatter leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#FF4A00] p-[18px] custom-border_one">
                 {/* img */}
@@ -574,7 +574,7 @@ export const Hero = () => {
               </div>
             </div>
             {/* box 2 */}
-            <div className="mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#FF4A00] p-[18px] custom-border_one">
                 {/* img */}
@@ -596,7 +596,7 @@ export const Hero = () => {
               </div>
             </div>
             {/* box 3 */}
-            <div className="mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#510f4d] p-[18px] custom-border_one">
                 {/* img */}
@@ -619,7 +619,7 @@ export const Hero = () => {
           {/* right */}
           <div className="g_right">
             {/* box 1 */}
-            <div className="m_top leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer m_top leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#db4437] p-[18px] custom-border_one">
                 {/* img */}
@@ -639,7 +639,7 @@ export const Hero = () => {
               </div>
             </div>
             {/* box 2 */}
-            <div className="m_top mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer m_top mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#ffe01b] p-[18px] custom-border_one">
                 {/* img */}
@@ -659,7 +659,7 @@ export const Hero = () => {
               </div>
             </div>
             {/* box 3 */}
-            <div className="m_top mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
+            <div className="cursor-pointer m_top mt-[10px] leading-6 flex rounded-lg items-center custom-border-two border-[#dedcda] border-solid border-[1px]">
               {/* left */}
               <div className="bg-[#354147] p-[18px] custom-border_one">
                 {/* img */}
@@ -685,7 +685,7 @@ export const Hero = () => {
         {/* Pagination */}
         <div className="flex justify-center mt-[31px]">
           {/* left */}
-          <div className="border-solid border-[1px] rounded-[3px] border-[#d2d2d2] w-[44px] h-[44px] flex justify-center items-center">
+          <div className="cursor-pointer border-solid border-[1px] rounded-[3px] border-[#d2d2d2] w-[44px] h-[44px] flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -702,7 +702,7 @@ export const Hero = () => {
             </svg>
           </div>
           {/* right */}
-          <div className="ml-[6px]">
+          <div className="cursor-pointer ml-[6px]">
             <div className="border-solid border-[1px] border-[#898989] rounded-[3px] w-[44px] h-[44px] flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -728,7 +728,7 @@ export const Hero = () => {
         {/* images */}
         <div className="last_images_flex flex justify-center items-center mt-[27px]">
           {/* img 1 */}
-          <div className="media_flex">
+          <div className="media_flex cursor-pointer">
             <svg
               width="116"
               height="30"
@@ -791,7 +791,7 @@ export const Hero = () => {
             </svg>
           </div>
           {/* img 2 */}
-          <div className="m_top media_flex margin_rem ml-[80px]">
+          <div className="cursor-pointer m_top media_flex margin_rem ml-[80px]">
             <svg
               data-testid="img"
               width="108"
@@ -819,7 +819,7 @@ export const Hero = () => {
             </svg>
           </div>
           {/* img 3 */}
-          <div className="m_top margin_rem media_flex ml-[80px]">
+          <div className="cursor-pointer m_top margin_rem media_flex ml-[80px]">
             <svg
               data-testid="img"
               width="106"
@@ -871,7 +871,7 @@ export const Hero = () => {
             </svg>
           </div>
           {/* img 4 */}
-          <div className="m_top ml-[80px] margin_rem media_flex last_imgs">
+          <div className="cursor-pointer m_top ml-[80px] margin_rem media_flex last_imgs">
             <svg
               data-testid="img"
               width="129"
@@ -903,7 +903,7 @@ export const Hero = () => {
             </svg>
           </div>
           {/* img 5 */}
-          <div className="ml-[80px] margin_rem media_flex last_imgs">
+          <div className="cursor-pointer ml-[80px] margin_rem media_flex last_imgs">
             <svg
               data-testid="img"
               width="113"

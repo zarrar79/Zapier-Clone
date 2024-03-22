@@ -82,7 +82,7 @@ export const Second = () => {
                     <a href="#">Details</a>
                   </div>
                   {/* try it */}
-                  <div className="ml-[20px]">
+                  <div className="ml-[20px] cursor-pointer">
                     <button className="text-center rounded-sm px-[20px] py-[7px] pb-[10px] font-[600] text-[16px] text-[#fffdf9] bg-[#3d4592]">
                       Try it
                     </button>
@@ -138,7 +138,7 @@ export const Second = () => {
                     <a href="#">Details</a>
                   </div>
                   {/* try it */}
-                  <div className="ml-[20px]">
+                  <div className="ml-[20px] cursor-pointer">
                     <button className="text-center rounded-sm px-[20px] py-[7px] pb-[10px] font-[600] text-[16px] text-[#fffdf9] bg-[#3d4592]">
                       Try it
                     </button>
@@ -194,7 +194,7 @@ export const Second = () => {
                     <a href="#">Details</a>
                   </div>
                   {/* try it */}
-                  <div className="ml-[20px]">
+                  <div className="ml-[20px] cursor-pointer">
                     <button className="text-center rounded-sm px-[20px] py-[7px] pb-[10px] font-[600] text-[16px] text-[#fffdf9] bg-[#3d4592]">
                       Try it
                     </button>
@@ -250,7 +250,7 @@ export const Second = () => {
                     <a href="#">Details</a>
                   </div>
                   {/* try it */}
-                  <div className="ml-[20px]">
+                  <div className="ml-[20px] cursor-pointer">
                     <button className="text-center rounded-sm px-[20px] py-[7px] pb-[10px] font-[600] text-[16px] text-[#fffdf9] bg-[#3d4592]">
                       Try it
                     </button>
@@ -307,7 +307,7 @@ export const Second = () => {
                     <a href="#">Details</a>
                   </div>
                   {/* try it */}
-                  <div className="ml-[20px]">
+                  <div className="ml-[20px] cursor-pointer">
                     <button className="text-center rounded-sm px-[20px] py-[7px] pb-[10px] font-[600] text-[16px] text-[#fffdf9] bg-[#3d4592]">
                       Try it
                     </button>
@@ -363,7 +363,7 @@ export const Second = () => {
                     <a href="#">Details</a>
                   </div>
                   {/* try it */}
-                  <div className="ml-[20px]">
+                  <div className="ml-[20px] cursor-pointer">
                     <button className="text-center rounded-sm px-[20px] py-[7px] pb-[10px] font-[600] text-[16px] text-[#fffdf9] bg-[#3d4592]">
                       Try it
                     </button>
